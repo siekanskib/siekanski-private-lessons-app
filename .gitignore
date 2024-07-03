@@ -1,0 +1,154 @@
+# Zalecane pliki i katalogi do ignorowania w projektach Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+
+# Zalecane pliki i katalogi do ignorowania w projektach React
+/build
+/.pnp
+.pnp.js
+
+# pliki konfiguracyjne środowiska
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Katalogi i pliki IDE
+/.idea
+/.vscode
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# macOS system files
+.DS_Store
+
+# Archiwa pakietów
+*.tgz
+
+# Jeśli używasz TypeScripta
+*.tsbuildinfo
+
+# Jeśli masz skompilowane pliki
+/dist
+
+# Logi
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dla Baza danych
+*.sql
+*.sqlite
+*.sqlite3
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# katalogi produkcyjne/budowy dla niektórych narzędzi
+/public
+/out
+/.next
+
+# Specyficzne pliki konfiguracyjne dla innych narzędzi
+/.babelrc
+/.eslintrc.json
+/.eslintcache
+/.stylelintrc.json
+/.prettierrc
+/.husky
+
+# Zalecane pliki i katalogi do ignorowania w projektach .NET
+
+# Katalogi obj i bin
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
+
+# Pliki konfiguracyjne Visual Studio
+**/*.user
+**/*.aps
+**/*.vs/
+**/*.vscode/
+**/*.[Vv]s[Ss][Cc]/
+**/*.userosscache
+**/*.suo
+**/*.ntvs_analysis.dat
+**/*.njsproj
+**/*.sln.docstates
+
+# Katalogi pakietów NuGet
+**/packages/
+**/[Pp]ackage[Pp]arts/
+**/[Ww]wwroot/lib/
+*.nupkg
+*.snupkg
+
+# Zrzuty pamięci, pliki buforujące, inne artefakty i pliki pomocnicze
+**/[Bb]ackup/
+**/[Tt]emp/
+**/[Tt]mp/
+**/*.[Tt]mp
+**/*.[Bb]ak
+**/*.[Tt]emp
+**/*.[Tt]mp_proj
+**/*.pidb
+**/*.userprefs
+**/*.csproj.user
+**/*.cache
+**/*.trx
+**/*.log
+**/*.vsmdi
+**/TestResults
+**/*.VisualState.xml
+**/AnnoStore
+**/Generated_Code
+
+# Pliki zasobów
+**/*.resources
+
+# Pliki symboli (jeśli nie są potrzebne)
+**/*.pdb
+
+# Wszystkie pliki generowane przez narzędzia
+**/*.Generated.cs
+**/*.exe
+**/*.dll
+**/*.svclog
+**/*.dir
+**/*.store
+
+# Resztki po fuzji
+**/_ReSharper.*/
+**/_UpgradeReport_Files/
+**/*/ServiceFabricBackup/
+**/*/_ReSharper.*/
+**/._*
+
+# macOS system files
+**/.DS_Store
+
+# Windows system files
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
+
+bin/
+obj/
+
+# Ignorowanie konkretnego pliku konfiguracyjnego
+Services/client_secret_851113923080-u24ja5lf02nj396u0421rboend7tq9ik.apps.googleusercontent.com.json
+
+appsettings.json
+appsettings.Production.json
+
