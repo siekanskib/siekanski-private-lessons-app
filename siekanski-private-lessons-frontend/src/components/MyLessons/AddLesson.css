@@ -1,0 +1,71 @@
+.add-lesson-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.add-lesson-form {
+    background: white; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.add-lesson-form .form-group {
+    margin-bottom: 15px;
+}
+
+.add-lesson-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-lesson-form input[type="datetime-local"],
+.add-lesson-form textarea,
+.add-lesson-form select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+
+#lesson-name {
+    height: 50px; 
+}
+
+
+#lesson-description {
+    height: 100px; 
+}
+
+.add-lesson-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #74b9ff;
+    color: white;
+}
+
+.add-lesson-form button:hover {
+    background-color: #5684c0;
+}
+
+.add-lesson-form button.cancel-button {
+    background-color: #ff7675;
+}
+
+.add-lesson-form button.cancel-button:hover {
+    background-color: #ff5f5f;
+}

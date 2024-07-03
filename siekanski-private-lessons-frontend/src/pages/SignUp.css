@@ -1,0 +1,70 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type='text'],
+.input-group input[type='email'],
+.input-group input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.input-group input[type='radio'] {
+    margin-right: 5px;
+}
+
+.input-group.radio {
+    display: flex;
+    align-items: center;
+}
+
+.input-group.radio p {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #74b9ff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0984e3;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.85em;
+  }
+
