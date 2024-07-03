@@ -149,6 +149,3 @@ obj/
 # Ignorowanie konkretnego pliku konfiguracyjnego
 Services/client_secret_851113923080-u24ja5lf02nj396u0421rboend7tq9ik.apps.googleusercontent.com.json
 
-appsettings.json
-appsettings.Production.json
-
